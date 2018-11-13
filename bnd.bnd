@@ -1,0 +1,10 @@
+Bundle-Name: PA-Newsletter
+Bundle-SymbolicName: PA.Newsletter
+Bundle-Version: 1.0.0
+Export-Package: PA.Newsletter.constants
+Export-Package: PA.Newsletter.configuration
+Export-Package: PA.Newsletter.portlet
+Export-Package: PA.Newsletter.util
+-metatype: *
+-jsp: *.jsp,*.jspf
+-plugin.jsp: com.liferay.ant.bnd.jsp.JspAnalyzerPlugin
